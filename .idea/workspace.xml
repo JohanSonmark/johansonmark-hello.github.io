@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="45ac510a-9741-4d3c-ab36-7c54573fbb02" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -165,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507662694532</updated>
-      <workItem from="1507662696068" duration="6602000" />
+      <workItem from="1507662696068" duration="6626000" />
     </task>
     <task id="LOCAL-00001" summary="Har börjat med en template.">
       <created>1507669199804</created>
@@ -174,11 +173,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507669199804</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Har börjat med en template och index">
+      <created>1507669318786</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1507669318786</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6602000" />
+    <option name="totallyTimeSpent" value="6626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -209,7 +215,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Har börjat med en template." />
-    <option name="LAST_COMMIT_MESSAGE" value="Har börjat med en template." />
+    <MESSAGE value="Har börjat med en template och index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Har börjat med en template och index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
