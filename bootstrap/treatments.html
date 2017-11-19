@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab2</title>
+</head>
+<body>
+
+<!------ NavBar --------->
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#main-navigation">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a href="index.html" class="navbar-brand navbar-left">
+                <span class="text-uppercase">
+                    Lab 2
+                </span>
+
+
+            </a>
+
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right na" id="main-navigation">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Treatments <span class="caret"></span>
+                </a>
+                    <ul class="dropdown-menu">
+                        <li class="active"><a href="treatments.html">All Treatments</a></li>
+                        <li><a href="treatment1.html"> Treatment 1</a></li>
+                        <li><a href="treatment2.html">Treatment 2</a></li>
+                    </ul>
+                </li>
+                <li class=""><a href="about.html">About</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<!------ NavBar END --------->
+
+<!------ Breadcrumb --------->
+<ol class="breadcrumb">
+    <li><a href="index.html" class="glyphicon glyphicon-home"></a></li>
+    <li class="active">All Treatments</li>
+</ol>
+<!------ Breadcrumb END --------->
+
+<!------ Articles --------->
+<div class="container">
+    <div class="row">
+        <!------ Articles 1 --------->
+        <div class="col-xs-12 col-sm-5">
+            <div class="panel panel-default">
+                <div class="panel-heading text-center">Treatment 1</div>
+                <div class="panel-body">
+                    <img src="http://www.lubetech.co.uk/uploads/asset_file/LION%20-%202560%20x%201440%20px.jpg" alt="Knee Treatment" class="img-responsive">
+                    <p class="text-center">Morbi in volutpat sem. Mauris id enim sed mi rutrum venenatis.</p>
+                </div>
+                <div class="panel-footer">
+                    <a href="treatment1.html"
+                       class="button btn btn-primary col-xs-6 col-xs-offset-3">Read More</a>
+                    <div class="clearfix">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------ Articles 1 END --------->
+        <!------ Articles 2 --------->
+        <div class="col-xs-12 col-sm-5 col-sm-push-2">
+            <div class="panel panel-default">
+                <div class="panel-heading text-center">Treatment 2</div>
+                <div class="panel-body">
+                    <img src="http://mameara.com/wp-content/uploads/2010/08/2560x1440px.jpg" alt=" Massage" class="img-responsive">
+                    <p class="text-center">Morbi in volutpat sem. Mauris id enim sed mi rutrum venenatis.</p>
+                </div>
+                <div class="panel-footer">
+                    <a href="treatment2.html" class="button btn btn-primary col-xs-6 col-xs-offset-3">Read More</a>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <!------ Articles 2 END --------->
+    </div>
+</div>
+<!------ Articles END --------->
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

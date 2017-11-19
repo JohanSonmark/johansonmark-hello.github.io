@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab2</title>
+</head>
+<body>
+
+<!------ NavBar --------->
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#main-navigation">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a href="index.html" class="navbar-brand navbar-left">
+                <span class="text-uppercase"> Lab 2 </span>
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right na" id="main-navigation">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Treatments <span class="caret"></span>
+                </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="treatments.html">All Treatments</a></li>
+                        <li><a href="treatment1.html"> Treatment 1</a></li>
+                        <li><a href="treatment2.html">Treatment 2</a></li>
+                    </ul>
+                </li>
+                <li class=""><a href="about.html">About</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<!------ NavBar END --------->
+
+<!------ Carousel --------->
+<div class="container-fluid">
+    <div class="carousel slide hidden-xs" data-ride="carousel" id="img-carousel" data-interval="2000">
+        
+        <ol class="carousel-indicators">
+            <li data-target="#img-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#img-carousel" data-slide-to="1" class=""></li>
+            <li data-target="#img-carousel" data-slide-to="2" class=""></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="http://www.lubetech.co.uk/uploads/asset_file/LION%20-%202560%20x%201440%20px.jpg" alt="Massage">
+            </div>
+
+            <div class="item">
+                <img src="http://mameara.com/wp-content/uploads/2010/08/2560x1440px.jpg" alt="Knee Treatment">
+                <div class="carousel-caption">
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="http://www.lubetech.co.uk/uploads/asset_file/Cheetah%202%20-%202560%20x%201440%20px.jpg" alt="Hand Massage">
+                <div class="carousel-caption">
+                </div>
+            </div>
+        </div>
+
+        <a href="#img-carousel" class="left carousel-control" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+
+        <a href="#img-carousel" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
+    </div>
+</div>
+<!------ Carousel END --------->
+
+<!------ IF screen >765px --------->
+<img src="http://www.lubetech.co.uk/uploads/asset_file/Cheetah%202%20-%202560%20x%201440%20px.jpg" alt="Treatment " class="img-responsive visible-xs">
+<!------ IF screen >765px END --------->
+
+<!------ Articles--------->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4 col-xs-12">
+            <h2>Heading 1</h2>
+            <p>Donec id dolor justo. Aenean venenatis, nulla sed finibus vestibulum, sem libero sodales urna,
+                id bibendum lectus arcu id purus.
+                Quisque auctor tincidunt massa, et porttitor nulla pellentesque at.</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <h2>Heading 2</h2>
+            <p>Pellentesque scelerisque et est nec bibendum. Aliquam erat volutpat.
+                Integer consectetur lorem eu est rutrum, ac suscipit ex accumsan.
+                Sed sed viverra enim, vel imperdiet neque. Pellentesque non neque a quam venenatis tempor.
+                Ut cursus, sem vel malesuada sagittis,
+                magna metus vulputate mi, non elementum diam tellus vel massa.</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <h2>Heading 3</h2>
+            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                Nunc maximus, felis ut commodo ultricies, lorem quam tincidunt odio, at viverra nibh ex a nibh.
+                Curabitur condimentum tincidunt tincidunt. Aenean et libero metus.
+                Aliquam aliquet arcu eget est auctor posuere.</p>
+        </div>
+    </div>
+</div>
+<!------ Articles END --------->
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
