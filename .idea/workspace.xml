@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9afe149c-e809-4e5a-a8eb-db5639e64222" name="Default" comment="" />
+    <list default="true" id="9afe149c-e809-4e5a-a8eb-db5639e64222" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/html/mywebsites.html" afterPath="$PROJECT_DIR$/html/mywebsites.html" />
+      <change beforePath="$PROJECT_DIR$/html/mywebsites/ExamProjekt Johan, Simon A, Evelyn" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/html/mywebsites/groupproject Johan, Khoi, Simon A, Christian" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,17 +20,17 @@
     <splitter split-orientation="horizontal" split-proportion="0.5334136">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="mywebsites.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="mywebsites.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/html/mywebsites.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+                <state relative-caret-position="486">
+                  <caret line="65" column="3" lean-forward="false" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="702">
@@ -39,8 +43,8 @@
           <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/html/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+                <state relative-caret-position="729">
+                  <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -125,10 +129,10 @@
         <option value="$PROJECT_DIR$/html/myfriends.html" />
         <option value="$PROJECT_DIR$/html/bymywebsite.html" />
         <option value="$PROJECT_DIR$/html/about.html" />
-        <option value="$PROJECT_DIR$/html/mywebsites.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/tempel.css" />
+        <option value="$PROJECT_DIR$/html/mywebsites.html" />
       </list>
     </option>
   </component>
@@ -165,31 +169,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="Min sida 2018-01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Min sida 2018-01" type="462c0819:PsiDirectoryNode" />
+              <item name="johansonmark-hello.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="johansonmark-hello.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Min sida 2018-01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Min sida 2018-01" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Min sida 2018-01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Min sida 2018-01" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Min sida 2018-01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Min sida 2018-01" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="myGames" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Min sida 2018-01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Min sida 2018-01" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="myGames" type="462c0819:PsiDirectoryNode" />
-              <item name="Gingerbread-game Johan, Christoffer, Nadim, Simon D, Veronika" type="462c0819:PsiDirectoryNode" />
+              <item name="johansonmark-hello.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="johansonmark-hello.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -239,12 +225,12 @@
       <workItem from="1518452787998" duration="34000" />
       <workItem from="1519677145409" duration="10190000" />
       <workItem from="1519687851211" duration="4362000" />
-      <workItem from="1519692688013" duration="9000" />
+      <workItem from="1519692688013" duration="1193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40000000" />
+    <option name="totallyTimeSpent" value="41184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -376,7 +362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/tempel.js" />
     <entry file="file://$PROJECT_DIR$/css/myfriends.css" />
     <entry file="file://$PROJECT_DIR$/css/about.css" />
     <entry file="file://$PROJECT_DIR$/css/bymywebsite.css" />
@@ -420,23 +405,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/mygames.css" />
-    <entry file="file://$PROJECT_DIR$/html/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/mywebsites.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/mywebsites.css" />
+    <entry file="file://$PROJECT_DIR$/css/tempel.css" />
+    <entry file="file://$PROJECT_DIR$/js/tempel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -445,11 +431,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/tempel.css" />
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/html/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="729">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/mywebsites.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="65" column="3" lean-forward="false" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
           <folding />
         </state>
       </provider>
