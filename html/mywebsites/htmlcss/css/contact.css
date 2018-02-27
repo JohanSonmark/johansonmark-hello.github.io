@@ -1,0 +1,316 @@
+/* Common definitions */
+*{box-sizing: border-box;}
+
+/* Khoi edited */
+.contact-common-questions{color: #000000;text-decoration: none;}
+.contact-common-questions:hover{color: #5E5E5E;text-decoration: underline;}
+
+@media screen and (min-width:767px) {
+    body {
+        font-family: Arial;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        width: 1200px;
+        margin: auto;
+    }
+
+    /* Definitions for header */
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+    }
+
+    #header-head {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #header-img-logo {
+        width: 180px;
+        height: 105px;
+        margin: 20px;
+    }
+
+    #header-searchbox {
+        width: 50%;
+        height: 40px;
+        margin: auto;
+
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+
+        background-image: url('../images/searchicon.png');
+        background-position: left;
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        padding: 4px 4px 4px 20px;
+    }
+
+    #header-img-shoppingcart {
+        float: right;
+        width: 40px;
+        margin: auto;
+    }
+
+    #header-righttop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header-righttop-minimenu {
+        list-style: none;
+    }
+
+    #header-righttop-minimenu li {
+        display: inline-block;
+        padding: 0 10px 0 0;
+    }
+
+    #header-righttop-minimenu li a {
+        text-decoration: none;
+        position: relative;
+        color: #5E5E5E;
+    }
+
+    #header-righttop-minimenu li a:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        border-bottom: 2px solid #000000;
+        transition: 0.4s;
+    }
+
+    #header-righttop-minimenu li a:hover {
+        color: #000000;
+    }
+
+    #header-righttop-minimenu li a:hover:after {
+        width: 100%;
+    }
+
+    /* Definitions for menu */
+    nav {
+        width: 100%;
+    }
+
+    #header-menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background: #2E5B8B;
+    }
+
+    #header-menu li {
+        display: inline-block;
+        margin: 1px;
+        padding: 15px;
+    }
+
+    #header-menu a {
+        text-decoration: none;
+        position: relative;
+        color: #ffffff;
+    }
+
+    #header-menu a:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        border-bottom: 2px solid #cccccc;
+        transition: 0.4s;
+    }
+
+    #header-menu a:hover {
+        color: #cccccc;
+    }
+
+    #header-menu a:hover:after {
+        width: 100%;
+    }
+
+    /* Definitions for main contents */
+    .main-title {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .sub-title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    /* Definitions for footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        height: 150px;
+        width: 100%;
+        background: #F1F1F1;
+        color: #5E5E5E;
+    }
+
+    footer p {
+        text-align: center;
+        margin: 0;
+    }
+
+    footer div {
+        margin: auto;
+    }
+
+    footer img {
+        width: 40px;
+        transition: width 0.4s;
+    }
+
+    footer img:hover {
+        width: 50px;
+    }
+
+    #tb-footer-social-media {
+        margin: auto;
+        padding: 0;
+        border-collapse: collapse;
+    }
+
+    #tb-footer-social-media td {
+        width: 51px;
+        height: 55px;
+        padding: 0;
+    }
+
+    input[type=text], textarea {
+        width: 80%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-left: 16px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        display: inline;
+    }
+
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+    }
+
+    input[type=submit]:hover {background-color: #45a049;}
+
+    input[type=email], select, textarea {
+        width: 80%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 12px;
+        resize: vertical;
+        display: inline;
+        align-content: center;
+    }
+
+    textarea {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    label {
+        display: block;
+        text-align: left;
+        padding-left: 15%;
+    }
+
+    form {
+        width: 80%;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    input[type=text], textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        display: block;
+        align-content: center;
+    }
+
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+
+    }
+
+    input[type=email], select, textarea {
+        width:100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 12px;
+        resize: vertical;
+        display: block;
+        margin-left: 0;
+        margin-right:auto;
+    }
+    textarea {
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+    }
+    label{display: block;
+        text-align: left;
+        padding-left: 15%;
+    }
+    form{  width: 80%;
+        text-align: center; align-content: center;}
+
+}
+
+/* Code for the styling of contact form*/

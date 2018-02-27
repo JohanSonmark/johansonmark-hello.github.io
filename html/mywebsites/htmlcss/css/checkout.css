@@ -1,0 +1,112 @@
+/*--- Definitions for Shopping cart page ---*/
+#tb-shoppingcart, #tb-shoppingcart th, #tb-shoppingcart td{
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+}
+#tb-shoppingcart th{line-height: 40px;background: #F1F1F1}
+#tb-shoppingcart td{padding: 10px;}
+#tb-shoppingcart{width: 100%;}
+#tb-shoppingcart img{float: left;max-width: 50px;margin: 0 10px 0 0;}
+#tb-shoppingcart p{margin: 2px;}
+
+.shoppingcart-price, .shoppingcart-quantity, .shoppingcart-total, .shoppingcart-lb-subtotal, .shoppingcart-subtotal{text-align: right;}
+.shoppingcart-lb-subtotal{font-weight: bold;}
+.shoppingcart-subtotal{font-weight: bold;color: #B12704;}
+.shoppingcart-txt-quantity{width: 50px;height: 25px;}
+.shoppingcart-products-title{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+.shoppingcart-products-title:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #5E5E5E;
+}
+
+.shoppingcart-notes{font-size: 12px;float: left; text-align: justify;}
+.shoppingcart-bt-tocheckout {
+    font-size: 15px;
+    float: right;
+    background-color: #FFBC00;
+    color: black;
+    padding: 15px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #cccccc;
+}
+.shoppingcart-bt-tocheckout:hover{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}/* Hover button */
+.shoppingcart-products-status{color: green;}
+
+
+/*--- Common definitions for Checkout page ---*/
+input[type="text"], input[type="email"], input[type="number"], #checkout-selectcountry select, #checkout-card-expiry-month select, #checkout-card-expiry-year select{
+    height: 50px;
+    border: #cccccc solid thin;
+    font-size: 16px;
+    padding: 5px;
+    margin: 0px 0px 20px 0px;
+}
+#checkout-background-form{
+    background: #F5F5F5;
+    padding: 50px;
+    width: 80%;
+    margin: 20px auto;
+}
+#tb-shipping-address, #tb-payment-methods, #tb-checkout-submit{width: 100%;}
+
+
+/* Definitions for Shipping address */
+#tb-shipping-address input[type="text"], #tb-shipping-address input[type="email"]{width: 95%;}
+
+
+/* Definitions for Payment method */
+#checkout-cardnumber{width: 45%;}
+#checkout-card-ccv{width: 60px;}
+#checkout-payment-logo img{
+    height: 40px;
+    margin: 5px 20px 5px 5px;
+}
+#checkout-card-expiry-month select, #checkout-card-expiry-year select{width: 70px;float: left;}
+
+/* Definitions for bottom of checkout form*/
+.checkout-notes-payment{
+    color: #ff0000;
+    font-size: 12px;
+}
+.checkout-shoppingcart-sort-informations{
+    text-align: right;
+    color: #5E5E5E;
+    line-height: 25px;
+}
+.checkout-subtotal{
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    color: #B12704;
+}
+
+.checkout-goback a{text-decoration: underline;color: #FFBC00;}
+.checkout-goback a:hover{text-decoration: none;}
+
+#checkout-bt-checkout{
+    float: right;
+    font-size: 15px;
+    background-color: #FFBC00;
+    color: black;
+    padding: 15px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #cccccc;
+}
+#checkout-bt-checkout:hover{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+
+
+/* For mobile devices */
+@media only screen and (max-width: 768px){
+    #checkout-background-form{
+        background: #F5F5F5;
+        padding: 20px 0 10px 0;
+        width: 100%;
+        margin: 20px auto;
+    }
+    #tb-shipping-address input[type="text"], #tb-shipping-address input[type="email"]{width: 100%;}
+}

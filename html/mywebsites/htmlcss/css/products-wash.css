@@ -1,0 +1,51 @@
+
+
+#home-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.products{
+    width: 280px;
+    height: 410px;
+    border: #cccccc solid thin;
+    padding: 10px;
+    margin: 10px 20px 10px 0;
+}
+.products-image{
+    width: 100%;
+    text-align: center;
+}
+.products-reviewstarts{
+    height: 20px;
+    margin-bottom: 5px;
+}
+.products-title{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.products-intro p{margin: 0;}
+.products-pris{font-size: x-large;}
+
+.products-w a{
+
+}
+
+#home-ads{
+    margin: 10px 0 0 0;
+}
+#home-ads img{
+    width: 100%;
+}
+
+#posters{
+    margin: 10px 0 0 20px;
+}
+
+#posters img{
+    width: 32%;
+}
+
+
+

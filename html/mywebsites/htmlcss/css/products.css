@@ -1,0 +1,93 @@
+#products-layout{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+#products-img{
+    float: left;
+    text-align: center;
+    width: 400px;
+}
+#products-img img{
+    width: 100%;
+    max-width: 300px;
+}
+#products-decription{
+    width: 90%;
+    max-width: 800px;
+    text-align: justify;
+}
+.products-detail-reviewstarts{height: 20px;margin-bottom: 5px;}
+.products-detail-intro p{margin: 0;color: #5E5E5E;font-size: 14px;}
+.products-detail-pris{font-size: 25px;}
+
+#products-spec1{width: 100%;max-width: 600px;}
+#products-spec2{width: 100%;max-width: 600px;}
+
+#products-spec1-tb, #products-spec2-tb{
+    width: 90%;
+    border: #cccccc solid thin;
+    margin: 20px 0px 20px 0px;
+    border-collapse: collapse;
+}
+#products-spec2-tb{float: right;}
+#products-spec1-tb th, #products-spec2-tb th{
+    border-bottom: 2px solid darkblue;
+    padding: 5px;
+    text-align: left;
+    line-height: 30px;
+    background: #fafafa;
+}
+#products-spec1-tb td, #products-spec2-tb td{
+    border-bottom: 1px solid lightblue;
+    padding: 5px;
+    width: 30%;
+    text-align: left;
+}
+#products-decription input[type="number"]{
+    height: 50px;
+    width: 50px;
+    border: #cccccc solid thin;
+    font-size: 16px;
+    padding: 5px;
+    margin: 0px 0px 20px 0px;
+}
+#products-detail-add-to-cart{
+    font-size: 15px;
+    background-color: #FFBC00;
+    color: black;
+    padding: 15px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #cccccc;
+}
+#products-detail-add-to-cart:hover{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+
+.products-text-menu a{
+    font-size: 12px;
+    color: #5E5E5E;
+    text-decoration: none;
+}
+.products-text-menu a:hover{
+    font-size: 12px;
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+    #products-layout{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    #products-decription{
+        width: 100%;
+        text-align: justify;
+    }
+    #products-spec1-tb, #products-spec2-tb{
+        width: 100%;
+        margin: 20px 0px 10px 0px;
+    }
+}
+
+

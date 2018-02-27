@@ -1,0 +1,33 @@
+
+.products-guide-product-image
+{
+    width:70%;
+    height:auto;
+}
+.products-guide-intro-text
+{
+    font-size: 20px;
+    font-weight:bold;
+}
+.products-guide-bold
+{
+    font-weight: bold;
+}
+.products-guide-normal-link
+{
+    text-decoration: none;
+    color: black;
+}
+.products-guide-normal-link:hover
+{
+    text-decoration: underline;
+    color: #5E5E5E;
+}
+
+@media screen and (max-width: 768px) {
+    .products-guide-product-image
+    {
+        width:100%;
+        height:auto;
+    }
+}
