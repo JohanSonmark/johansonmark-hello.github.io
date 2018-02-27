@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Home & Kitchen Company">
+    <meta name="description" content="Home and Kitchen is a global leader in household appliances that shapes living for the better by reinventing taste, care and well being experiences.">
+    <meta name="keywords" content="h&k, H&K, home and kitchen, home & kitchen, wash machine, fridge, freezer, disk machine, vacuum cleaner">
+    <title>Home & Kitchen</title>
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/main-mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 767px)" href="css/main.css">
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <!-- area for logo, search box, shopping cart -->
+            <section id="header-head">
+                <a href="index.html" title="Home & Kitchen"><img id="header-img-logo" src="images/logo.png" alt="Home & Kitchen"></a>
+
+                <input type="search" id="header-searchbox" maxlength="200" placeholder="Search on Home & Kitchen...">
+
+                <div id="header-righttop">
+                    <ul id="header-righttop-minimenu">
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Languages</a></li>
+                    </ul>
+                    <a href="checkout.html" title="Checkout"><img id="header-img-shoppingcart" src="images/cart.png" alt="Shopping cart"></a>
+                </div>
+            </section>
+
+            <!-- menu -->
+            <nav>
+                <ul id="header-menu">
+                    <li><a href="products.html">Wash machine</a></li>
+                    <li><a href="products.html">Fridge</a></li>
+                    <li><a href="products.html">Freezer</a></li>
+                    <li><a href="products.html">Disk machine</a></li>
+                    <li><a href="products.html">Vacuum cleaner</a></li>
+                    <li><a href="products.html">Offers</a></li>
+                    <li><a href="checkout.html">Shopping cart</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="products-guide.html">Product guide</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Begin main contents -->
+        <main>
+            <p class="main-title">Select a shipping address</p>
+
+            <div id="checkout-background-form">
+                <form action="checkout-end.html" method="post">
+                    <table id="tb-shipping-address">
+                        <tr>
+                            <td>First name</td>
+                            <td>Last name</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="txt-firstname" id="checkout-txt-firstname" maxlength="100" minlength="2" required pattern="[a-zA-ZåäöÅÄÖ0-9\s]+" placeholder="First name"></td>
+                            <td><input type="text" name="txt-lastname" id="checkout-txt-lastname" maxlength="100" minlength="2" required pattern="[a-zA-ZåäöÅÄÖ0-9\s]+" placeholder="Last name"></td>
+                        </tr>
+                        <tr>
+                            <td>Street address</td>
+                            <td>Email</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="txt-address" id="checkout-txt-address" maxlength="100" minlength="2" required pattern="[a-zA-ZåäöÅÄÖ0-9\s]+" placeholder="Address"></td>
+                            <td><input type="email" name="txt-email" id="checkout-txt-email" required placeholder="Your email"></td>
+                        </tr>
+                        <tr>
+                            <td>Zip code</td>
+                            <td>City</td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" name="txt-zipcode" id="checkout-txt-zipcode" max="99999" required pattern="[0-9]+" placeholder="Zip code (5 digits)"></td>
+                            <td>
+                                <input type="text" name="txt-city" id="checkout-txt-city" maxlength="100" minlength="2" required pattern="[a-zA-ZåäöÅÄÖ0-9\s]+" placeholder="City">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Country</td>
+                            <td>Shipping method</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div id="checkout-selectcountry">
+                                    <select name="sl-country" id="checkout-sl-country">
+                                        <option value="1" selected>Sweden</option>
+                                        <option value="2">Denmark</option>
+                                        <option value="3">Norway</option>
+                                        <option value="4">Finland</option>
+                                        <option value="5">France</option>
+                                        <option value="6">Japan</option>
+                                        <option value="7">Ireland</option>
+                                        <option value="8">England</option>
+                                        <option value="9">Russia</option>
+                                        <option value="10">United State</option>
+                                        <option value="11">Germany</option>
+                                        <option value="12">Italy</option>
+                                        <option value="13">Spain</option>
+                                        <option value="14">Bulgaria</option>
+                                        <option value="15">Romania</option>
+                                        <option value="16">Iceland</option>
+                                    </select>
+                                </div>
+                            </td>
+                            <td>
+                                <div><input type="radio" name="rd-shippingmethod" value="0" checked> Standar</div>
+                                <div><input type="radio" name="rd-shippingmethod" value="1"> Express</div>
+                                <div><input type="radio" name="rd-shippingmethod" value="2"> Home delivery</div>
+                            </td>
+                        </tr>
+                    </table>
+                    <table id="tb-payment-methods">
+                        <tr>
+                            <td colspan="2" class="sub-title">Payment method</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" id="checkout-payment-logo">
+                                <img src="images/logo-bankid.png" alt="">
+                                <img src="images/logo-master-card.png" alt="">
+                                <img src="images/logo-visa.png" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="number" name="txt-cardnumber" id="checkout-cardnumber" max="9999999999999999" pattern="[0-9]+" placeholder="Card number (16 digits)" required>
+                                <input type="number" name="txt-card-ccv" id="checkout-card-ccv" placeholder="CCV number (3 digits)" max="999" pattern="[0-9]+" required>
+                                <div id="checkout-card-expiry-month">
+                                    <select name="sl-card-expiry-month" id="card-expiry-month">
+                                        <option value="1" selected>1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                </div>
+                                <div id="checkout-card-expiry-year">
+                                    <select name="sl-card-expiry-year" id="card-expiry-year">
+                                        <option value="2017" selected>2017</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2021">2021</option>
+                                    </select>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <table id="tb-checkout-submit">
+                        <tr>
+                            <td colspan="2" class="checkout-shoppingcart-sort-informations">
+                                <div>Goods cost: 14890 kr</div>
+                                <div>Included 30% tax: 4467 kr</div>
+                                <div class="checkout-subtotal">Subtotal: 14980 kr</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="checkout-goback"><a href="checkout.html">Go back</a></td>
+                            <td><input type="submit" value="Checkout" id="checkout-bt-checkout"></td>
+                        </tr>
+                    </table>
+                </form>
+                <p class="checkout-notes-payment"> * You must have information in all of these fields</p>
+            </div>
+        </main>
+        <!-- End of main contents -->
+
+        <footer>
+            <div>
+                <p>Follow us on </p>
+                <table id="tb-footer-social-media">
+                    <tr>
+                        <td height="70px">
+                            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.png" alt="Facebook" title="Facebook"></a>
+                        </td>
+                        <td height="70px">
+                            <a href="https://twitter.com/?lang=sv" target="_blank"><img src="images/twitter-logo.png" alt="Twitter" title="Twitter"></a>
+                        </td>
+                        <td height="70px">
+                            <a href="https://www.instagram.com/?hl=sv" target="_blank"><img src="images/instagram-logo.png" alt="Instagram" title="Instagram"></a>
+                        </td>
+                        <td height="70px">
+                            <a href="https://www.pinterest.se/" target="_blank"><img src="images/pinterest-logo.png" alt="Pinterest" title="Pinterest"></a>
+                        </td>
+                    </tr>
+                </table>
+                <p>Copyright by Home and Kitchen company - 2017</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

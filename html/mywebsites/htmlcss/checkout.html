@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Home & Kitchen Company">
+    <meta name="description" content="Home and Kitchen is a global leader in household appliances that shapes living for the better by reinventing taste, care and well being experiences.">
+    <meta name="keywords" content="h&k, H&K, home and kitchen, home & kitchen, wash machine, fridge, freezer, disk machine, vacuum cleaner">
+    <title>Home & Kitchen</title>
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/main-mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 767px)" href="css/main.css">
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <!-- area for logo, search box, shopping cart -->
+            <section id="header-head">
+                <a href="index.html" title="Home & Kitchen"><img id="header-img-logo" src="images/logo.png" alt="Home & Kitchen"></a>
+
+                <input type="search" id="header-searchbox" maxlength="200" placeholder="Search on Home & Kitchen...">
+
+                <div id="header-righttop">
+                    <ul id="header-righttop-minimenu">
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Languages</a></li>
+                    </ul>
+                    <a href="checkout.html" title="Checkout"><img id="header-img-shoppingcart" src="images/cart.png" alt="Shopping cart"></a>
+                </div>
+            </section>
+
+            <!-- menu -->
+            <nav>
+                <ul id="header-menu">
+                    <li><a href="products.html">Wash machine</a></li>
+                    <li><a href="products.html">Fridge</a></li>
+                    <li><a href="products.html">Freezer</a></li>
+                    <li><a href="products.html">Disk machine</a></li>
+                    <li><a href="products.html">Vacuum cleaner</a></li>
+                    <li><a href="products.html">Offers</a></li>
+                    <li><a href="checkout.html">Shopping cart</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="products-guide.html">Product guide</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Begin main contents -->
+        <main>
+            <p class="main-title">Shopping cart</p>
+            <form action="checkout-payment.html" method="post">
+                <table id="tb-shoppingcart">
+                    <tr>
+                        <th>Product(s)</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/product-wat286i8sn.jpg" alt="">
+                            <p><a href="products-detail.html" class="shoppingcart-products-title">Bosch WAT2869ISN</a></p>
+                            <p class="shoppingcart-products-status">In stock</p>
+                            <p>Free ship</p>
+                        </td>
+                        <td class="shoppingcart-price">5900 kr</td>
+                        <td class="shoppingcart-quantity">
+                            <input type="number" name="txt-quantity" class="shoppingcart-txt-quantity" value="1" pattern="[0-9]"> st
+                        </td>
+                        <td class="shoppingcart-total">9490 kr</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/product-sn457w03ms.jpg" alt="">
+                            <p><a href="products-detail.html" class="shoppingcart-products-title">Siemens SN457W03MS</a></p>
+                            <p class="shoppingcart-products-status">In stock</p>
+                            <p>Free ship</p>
+                        </td>
+                        <td class="shoppingcart-price">5490 kr</td>
+                        <td class="shoppingcart-quantity">
+                            <input type="number" name="txt-quantity" class="shoppingcart-txt-quantity" value="1" pattern="[0-9]"> st
+                        </td>
+                        <td class="shoppingcart-total">8990 kr</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="shoppingcart-lb-subtotal">Subtotal (2 items):</td>
+                        <td class="shoppingcart-subtotal">14980 kr</td>
+                    </tr>
+                </table>
+                <input type="submit" class="shoppingcart-bt-tocheckout" value="Process to checkout">
+            </form>
+            <p class="shoppingcart-notes">* The price and availability of items at Home & Kitchen are subject to change. The Cart is a temporary place to store a list of your items and reflects each item's most recent price. Shopping Cart Learn more
+                Do you have a gift card or promotional code? We'll ask you to enter your claim code when it's time to pay.</p>
+        </main>
+        <!-- End of main contents -->
+
+        <footer>
+            <div>
+                <p>Follow us on </p>
+                <table id="tb-footer-social-media">
+                    <tr>
+                        <td height="70px">
+                            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo.png" alt="Facebook" title="Facebook"></a>
+                        </td>
+                        <td height="70px">
+                            <a href="https://twitter.com/?lang=sv" target="_blank"><img src="images/twitter-logo.png" alt="Twitter" title="Twitter"></a>
+                        </td>
+                        <td height="70px">
+                            <a href="https://www.instagram.com/?hl=sv" target="_blank"><img src="images/instagram-logo.png" alt="Instagram" title="Instagram"></a>
+                        </td>
+                        <td height="70px">
+                            <a href="https://www.pinterest.se/" target="_blank"><img src="images/pinterest-logo.png" alt="Pinterest" title="Pinterest"></a>
+                        </td>
+                    </tr>
+                </table>
+                <p>Copyright by Home and Kitchen company - 2017</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
