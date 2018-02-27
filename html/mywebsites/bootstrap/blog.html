@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/otherpages.css">
+
+    <script src="js/jquery-3.2.1.min.js" rel="script"></script>
+    <script src="js/bootstrap.min.js" rel="script"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>blog</title>
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">Webbery</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home </a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="photo-gallery.html">Photo Gallery</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        All Services <span class="caret"></span></a>
+
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="all-services.html">All services</a></li>
+                        <li class="divider"></li>
+                        <li><a href="seo-opt.html">SEO Optimizing</a></li>
+                        <li><a href="webshop-design.html">Design Of Webshop</a></li>
+                        <li><a href="troubleshooting.html">Troubleshooting of Websites</a></li>
+                        <li><a href="maintenance-website.html">Website Maintenance</a></li>
+                        <li><a href="wireframe-drawing.html">Drawing Of Wireframe</a></li>
+                        <li><a href="blog-design.html">Design Of Blog </a></li>
+
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="blog.html">Blog <span class="sr-only">(current)</span></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <ol class="breadcrumb">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+        <li>Blog </li>
+    </ol>
+
+
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <h1>Blog</h1>
+        </div>
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <!-- Blogg 1 -->
+            <div class="container">
+                <div class="panel panel-default">
+                    <div class="panel-heading">What is a blog <span class="text-muted"> commented 5 days ago</span></div>
+                    <div class="panel-body">
+                        <div class="thumbnail">
+                            <div class="caption">
+
+                                <div class="row">
+                                    <p class="col-sm-8">
+                                        A blog (a truncation of the expression "weblog")[1] is a discussion or informational website published on the World Wide Web consisting of discrete,
+                                        often informal diary-style text entries ("posts").
+                                        Posts are typically displayed in reverse chronological order,
+                                        so that the most recent post appears first, at the top of the web page.
+                                        Until 2009, blogs were usually the work of a single individual,[citation needed] occasionally of a small group, and often covered a single subject or topic.
+                                        In the 2010s, "multi-author blogs" (MABs) have developed, with posts written by large numbers of authors and sometimes professionally edited.
+                                        MABs from newspapers, other media outlets, universities, think tanks, advocacy groups, and similar institutions account for an increasing quantity of blog traffic. The rise of Twitter and other "microblogging" systems helps integrate MABs and single-author blogs into the news media.
+                                        Blog can also be used as a verb, meaning to maintain or add content to a blog.</p>
+                                    <div class="col-sm-4" >
+                                        <img src="photo-gallery-img/blue.jpg" alt="Lights" style=" height: 100%; width: 100%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary">Submit</button>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h3>Comments</h3>
+                            </div><!-- /col-sm-12 -->
+                        </div><!-- /row -->
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <div class="thumbnail">
+                                    <img class="img-circle img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                                </div><!-- /thumbnail -->
+                            </div><!-- /col-sm-1 -->
+
+                            <div class="col-sm-4">
+                                <div class="panel panel-info">
+                                    <div class="panel-heading">
+                                        <strong>Nisse.se</strong> <span class="text-muted"> commented 5 days ago</span>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>We got great help and service. I strongly recommend.</p>
+
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseId-500" aria-expanded="false">Toggle comments <span class="badge">1</span>
+                                        </button>
+                                        <ul class="media-list collapse" id="collapseId-500" aria-expanded="false" style="height: 0px;">
+                                            <li class="media">
+
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Webbhallen<i class="small" style="margin-left: 5px">
+                                                        Posted 3 min</i></h4>
+                                                    <p>You are a fool</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                    </div><!-- /panel-body -->
+                                </div><!-- /panel panel-default -->
+                            </div><!-- /col-sm-5 -->
+                        </div>
+                        <div class="row col-sm-12 col-sm-push-6">
+                            <div class="col-sm-1">
+                                <div class="thumbnail">
+                                    <img class="img-circle img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                                </div><!-- /thumbnail -->
+                            </div><!-- /col-sm-1 -->
+
+                            <div class="col-sm-4">
+                                <div class="panel panel-info">
+                                    <div class="panel-heading">
+                                        <strong>Eva.se</strong> <span class="text-muted"> commented 5 days ago</span>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>We got great help and service. I strongly recommend.</p>
+
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseId-5001" aria-expanded="false">Toggle comments <span class="badge">1</span>
+                                        </button>
+                                        <ul class="media-list collapse" id="collapseId-5001" aria-expanded="false" style="height: 0px;">
+                                            <li class="media">
+
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Webbhallen<i class="small" style="margin-left: 5px">
+                                                        Posted 3 min</i></h4>
+                                                    <p>You are a fool</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                    </div><!-- /panel-body -->
+                                </div><!-- /panel panel-default -->
+                            </div><!-- /col-sm-5 -->
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <div class="thumbnail">
+                                    <img class="img-circle img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                                </div><!-- /thumbnail -->
+                            </div><!-- /col-sm-1 -->
+
+                            <div class="col-sm-4">
+                                <div class="panel panel-info">
+                                    <div class="panel-heading">
+                                        <strong>Olle.se</strong> <span class="text-muted"> commented 15 days ago</span>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>We got great help and service. I strongly recommend.</p>
+
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseId-5002" aria-expanded="false">Toggle comments <span class="badge">1</span>
+                                        </button>
+                                        <ul class="media-list collapse" id="collapseId-5002" aria-expanded="false" style="height: 0px;">
+                                            <li class="media">
+
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Webbhallen<i class="small" style="margin-left: 5px">
+                                                        Posted 3 min</i></h4>
+                                                    <p>You are a fool</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                    </div><!-- /panel-body -->
+                                </div><!-- /panel panel-default -->
+                            </div><!-- /col-sm-5 -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div><!-- /row -->
+
+
+    </div>
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <h1>Posts 2</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <!-- Blogg 1 -->
+            <div class="container">
+                <div class="panel panel-default">
+                    <div class="panel-heading">What is a blog <span class="text-muted"> commented 5 days ago</span></div>
+                    <div class="panel-body">
+                        <div class="thumbnail">
+                            <div class="caption">
+
+                                <div class="row">
+                                    <p class="col-sm-8">
+                                        A blog (a truncation of the expression "weblog")[1] is a discussion or informational website published on the World Wide Web consisting of discrete,
+                                        often informal diary-style text entries ("posts").
+                                        Posts are typically displayed in reverse chronological order,
+                                        so that the most recent post appears first, at the top of the web page.
+                                        Until 2009, blogs were usually the work of a single individual,[citation needed] occasionally of a small group, and often covered a single subject or topic.
+                                        In the 2010s, "multi-author blogs" (MABs) have developed, with posts written by large numbers of authors and sometimes professionally edited.
+                                        MABs from newspapers, other media outlets, universities, think tanks, advocacy groups, and similar institutions account for an increasing quantity of blog traffic. The rise of Twitter and other "microblogging" systems helps integrate MABs and single-author blogs into the news media.
+                                        Blog can also be used as a verb, meaning to maintain or add content to a blog.</p>
+                                    <div class="col-sm-4" >
+                                        <img src="photo-gallery-img/red.jpg" alt="Lights" style=" height: 100%; width: 100%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment2"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary">Submit</button>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h3>Comments</h3>
+                            </div><!-- /col-sm-12 -->
+                        </div><!-- /row -->
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <div class="thumbnail">
+                                    <img class="img-circle img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                                </div><!-- /thumbnail -->
+                            </div><!-- /col-sm-1 -->
+
+                            <div class="col-sm-4">
+                                <div class="panel panel-info">
+                                    <div class="panel-heading">
+                                        <strong>Nisse.se</strong> <span class="text-muted"> commented 5 days ago</span>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>We got great help and service. I strongly recommend.</p>
+
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseId-5003" aria-expanded="false">Toggle comments <span class="badge">1</span>
+                                        </button>
+                                        <ul class="media-list collapse" id="collapseId-5003" aria-expanded="false" style="height: 0px;">
+                                            <li class="media">
+
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Webbhallen<i class="small" style="margin-left: 5px">
+                                                        Posted 3 min</i></h4>
+                                                    <p>You are a fool</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                    </div><!-- /panel-body -->
+                                </div><!-- /panel panel-default -->
+                            </div><!-- /col-sm-5 -->
+                        </div>
+                        <div class="row col-sm-12 col-sm-push-6">
+                            <div class="col-sm-1">
+                                <div class="thumbnail">
+                                    <img class="img-circle img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                                </div><!-- /thumbnail -->
+                            </div><!-- /col-sm-1 -->
+
+                            <div class="col-sm-4">
+                                <div class="panel panel-info">
+                                    <div class="panel-heading">
+                                        <strong>Eva.se</strong> <span class="text-muted"> commented 5 days ago</span>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>We got great help and service. I strongly recommend.</p>
+
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseId-50013" aria-expanded="false">Toggle comments <span class="badge">1</span>
+                                        </button>
+                                        <ul class="media-list collapse" id="collapseId-50013" aria-expanded="false" style="height: 0px;">
+                                            <li class="media">
+
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Webbhallen<i class="small" style="margin-left: 5px">
+                                                        Posted 3 min</i></h4>
+                                                    <p>You are a fool</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                    </div><!-- /panel-body -->
+                                </div><!-- /panel panel-default -->
+                            </div><!-- /col-sm-5 -->
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <div class="thumbnail">
+                                    <img class="img-circle img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                                </div><!-- /thumbnail -->
+                            </div><!-- /col-sm-1 -->
+
+                            <div class="col-sm-4">
+                                <div class="panel panel-info">
+                                    <div class="panel-heading">
+                                        <strong>Olle.se</strong> <span class="text-muted"> commented 15 days ago</span>
+                                    </div>
+                                    <div class="panel-body">
+                                        <p>We got great help and service. I strongly recommend.</p>
+
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseId-50023" aria-expanded="false">Toggle comments <span class="badge">1</span>
+                                        </button>
+                                        <ul class="media-list collapse" id="collapseId-50023" aria-expanded="false" style="height: 0px;">
+                                            <li class="media">
+
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Webbhallen<i class="small" style="margin-left: 5px">
+                                                        Posted 3 min</i></h4>
+                                                    <p>You are a fool</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                    </div><!-- /panel-body -->
+                                </div><!-- /panel panel-default -->
+                            </div><!-- /col-sm-5 -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div><!-- /row -->
+
+
+    </div>
+
+</div>
+
+
+</body>
+</html>

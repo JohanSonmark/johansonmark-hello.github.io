@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/otherpages.css">
+
+    <script src="js/jquery-3.2.1.min.js" rel="script"></script>
+    <script src="js/bootstrap.min.js" rel="script"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Photo gallery</title>
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">Webbery</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li ><a href="index.html">Home </a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="photo-gallery.html">Photo Gallery <span class="sr-only">(current)</span></a></li>                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">All Services <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="all-services.html">All services</a></li>
+                    <li class="divider"></li>
+                    <li><a href="seo-opt.html">SEO Optimizing</a></li>
+                    <li><a href="webshop-design.html">Design Of Webshop</a></li>
+                    <li><a href="troubleshooting.html">Troubleshooting of Websites</a></li>
+                    <li><a href="maintenance-website.html">Website Maintenance</a></li>
+                    <li><a href="wireframe-drawing.html">Drawing Of Wireframe</a></li>
+                    <li ><a href="blog-design.html">Design Of Blog </a></li>
+
+                </ul>
+            </li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!---- NavBar END ---->
+
+<div class="container">
+    <ol class="breadcrumb">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+        <li>Photo Gallery </li>
+    </ol>
+
+
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <h1>Photo Gallery</h1>
+        </div>
+    </div>
+
+    <!--Tema till bloggar-->
+    <div class="container">
+        <div class="row">
+            <!-- Ett tema med Blå -->
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModalBlue">
+                            <img style="height: 200px; width: 100%; display: block;" src="photo-gallery-img/blue.jpg" alt="Card image">
+                        </button>
+                        <!-- Modal -->
+                        <div id="myModalBlue" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Blue Theme</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img style="height: 100%; width: 100%; display: block;" src="photo-gallery-img/blue.jpg" alt="Card image">
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ett tema med Röd -->
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModalRed">
+                            <img style="height: 200px; width: 100%; display: block;" src="photo-gallery-img/red.jpg" alt="Card image">
+                        </button>
+
+                        <!-- Modal -->
+                        <div id="myModalRed" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Titel</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img style="height: 100%; width: 100%; display: block;" src="photo-gallery-img/red.jpg" alt="Card image">
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ett tema med Svart -->
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModalBlack">
+                            <img style="height: 200px; width: 100%; display: block;" src="photo-gallery-img/black.jpg" alt="Card image">
+                        </button>
+
+                        <!-- Modal -->
+                        <div id="myModalBlack" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Blue Theme</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img style="height: 100%; width: 100%; display: block;" src="photo-gallery-img/black.jpg" alt="Card image">
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Tema Webb sidor-->
+    <div class="container">
+        <div class="row">
+            <!-- Ett tema med Webb1 -->
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModalWebb1">
+                            <img style="height: 200px; width: 100%; display: block;" src="photo-gallery-img/Webb1.jpg" alt="Card image">
+                        </button>
+
+                        <!-- Modal -->
+                        <div id="myModalWebb1" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Webb 1</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img style="height: 100%; width: 100%; display: block;" src="photo-gallery-img/Webb1.jpg" alt="Card image">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ett tema med Webb2 -->
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModalWebb2">
+                            <img style="height: 200px; width: 100%; display: block;" src="photo-gallery-img/Webb2.jpg" alt="Card image">
+                        </button>
+
+                        <!-- Modal -->
+                        <div id="myModalWebb2" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Titel</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img style="height: 100%; width: 100%; display: block;" src="photo-gallery-img/Webb2.jpg" alt="Card image">
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ett tema med Webb3 -->
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModalWebb3">
+                            <img style="height: 200px; width: 100%; display: block;" src="photo-gallery-img/Webb3.jpg" alt="Card image">
+                        </button>
+
+                        <!-- Modal -->
+                        <div id="myModalWebb3" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Webb 3</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img style="height: 100%; width: 100%; display: block;" src="photo-gallery-img/Webb3.jpg" alt="Card image">
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Tema Facebook tema-->
+    <div class="container">
+        <div class="row">
+            <!-- Ett tema med Facebook1 -->
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModalFacebook1">
+                            <img style="height: 200px; width: 100%; display: block;" src="photo-gallery-img/Facebook1.jpg" alt="Card image">
+                        </button>
+
+                        <!-- Modal -->
+                        <div id="myModalFacebook1" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Facebook 1</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img style="height: 100%; width: 100%; display: block;" src="photo-gallery-img/Facebook1.jpg" alt="Card image">
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ett tema med Facebook2 -->
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModalFacebook2">
+                            <img style="height: 200px; width: 100%; display: block;" src="photo-gallery-img/facebook2.jpg" alt="Card image">
+                        </button>
+
+                        <!-- Modal -->
+                        <div id="myModalFacebook2" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Titel</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img style="height: 100%; width: 100%; display: block;" src="photo-gallery-img/facebook2.jpg" alt="Card image">
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ett tema med Facebook3 -->
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModalFacebook3">
+                            <img style="height: 200px; width: 100%; display: block;" src="photo-gallery-img/Facebook3.jpg" alt="Card image">
+                        </button>
+
+                        <!-- Modal -->
+                        <div id="myModalFacebook3" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Facebook 3</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img style="height: 100%; width: 100%; display: block;" src="photo-gallery-img/Facebook3.jpg" alt="Card image">
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Tema BadWeb-->
+    <div class="container">
+        <div class="row">
+            <!-- Ett tema med BadWeb1 -->
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModalBadWeb1">
+                            <img style="height: 200px; width: 100%; display: block;" src="photo-gallery-img/BadWeb1.jpg" alt="Card image">
+                        </button>
+
+                        <!-- Modal -->
+                        <div id="myModalBadWeb1" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">BadWeb 1</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img style="height: 100%; width: 100%; display: block;" src="photo-gallery-img/BadWeb1.jpg" alt="Card image">
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ett tema med BadWeb2 -->
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModalBadWeb2">
+                            <img style="height: 200px; width: 100%; display: block;" src="photo-gallery-img/BadWeb2.jpg" alt="Card image">
+                        </button>
+
+                        <!-- Modal -->
+                        <div id="myModalBadWeb2" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">BadWeb 2</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img style="height: 100%; width: 100%; display: block;" src="photo-gallery-img/BadWeb2.jpg" alt="Card image">
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ett tema med BadWeb3 -->
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+                        <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModalBadWeb3">
+                            <img style="height: 200px; width: 100%; display: block;" src="photo-gallery-img/BadWeb3.jpg" alt="Card image">
+                        </button>
+
+                        <!-- Modal -->
+                        <div id="myModalBadWeb3" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">BadWeb 3</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img style="height: 100%; width: 100%; display: block;" src="photo-gallery-img/BadWeb3.jpg" alt="Card image">
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
