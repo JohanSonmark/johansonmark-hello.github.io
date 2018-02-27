@@ -1,0 +1,243 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+    font-family: 'Supermercado One', cursive;
+    background-color: #9cf;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6af), to(#bdf));
+    background-image: -webkit-linear-gradient(#6af, #bdf);
+    background-image: -moz-linear-gradient(#6af, #bdf);
+    background-image: linear-gradient(#6af, #bdf);
+}
+
+#banner{
+    margin-top: 15px;
+}
+
+#gameCanvas{
+    width: 900px;
+    height: 75%;
+    outline: 7px solid #B61200;
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    z-index: 0;
+    background-color: lightblue;
+    cursor: url(images/gingerbreadmancookie.png) 25 15, auto;
+    box-shadow: black 0 15px 30px;
+}
+
+.svgMap{
+    animation-name: slideMap;
+    animation-duration: 40s;
+    animation-timing-function: ease-in;
+    animation-play-state: paused;
+    position: relative;
+
+}
+
+@keyframes slideMap{
+    0%{top: -6500px;}
+    100%{top: 0;}
+}
+
+.modal{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content{
+    justify-items: center;
+    width: 30%;
+    margin: 20% auto;
+    background-color: palevioletred;
+    background-size: cover;
+    box-shadow: rgb(0,0,0) 0 5px 20px;
+    animation-name: modalOpen;
+    animation-duration: 2s;
+    padding-bottom: 15px;
+}
+
+.modal-body{
+    padding: 0 10px 20px 10px;
+}
+
+.modal-body>p{
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 1px 1px rgb(150, 150, 150);
+}
+
+h2{
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: 1px 1px rgb(150, 150, 150);
+}
+/*#playAgainBtn{
+    background-color: forestgreen;
+    padding: 5px;
+    font-weight: bold;
+    border: solid black 1px;
+}
+
+#quitBtn{
+    background-color: skyblue;
+    font-weight: bold;
+    border: solid black 1px;
+
+    padding: 5px;
+}
+*/
+
+.animate
+{
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+    position: relative;
+    padding: 6px 20px;
+    margin: 0px 3px 3px 0px;
+    float: left;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #eef8ff;
+    text-decoration: none;
+    font-family: 'Supermercado One', cursive;
+}
+
+.blue
+{
+    background-color: #3498DB;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+    box-shadow: black 0 7px 15px;
+}
+.blue:hover{
+    box-shadow: inset black 0 3px 7px;
+    cursor: pointer;
+}
+
+
+.green
+{
+    background-color: #82BF56;
+    border-bottom: 5px solid #669644;
+    text-shadow: 0px -2px #669644;
+    box-shadow: black 0 7px 15px;
+}
+
+.green:hover{
+    box-shadow: inset black 0 3px 7px;
+    cursor: pointer;
+}
+
+.action-button:active
+{
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+
+#SadGinger {
+    height: 125px;
+    float: right;
+    margin-right: 25px;
+    display: block;
+}
+
+#HappyGinger {
+    height: 125px;
+    float: right;
+    margin-right: 25px;
+    display: none;
+}
+
+
+@keyframes modalOpen {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.snowflake {
+    position: absolute;
+    display: block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-image: -webkit-radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%);
+    background-image: -moz-radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%);
+    background-image: -ms-radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%);
+    background-image: radial-gradient(circle farthest-corner at center, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%);
+}
+
+#snow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#countDown{
+    position: absolute;
+    z-index: 10;
+    color: white;
+    margin: 0;
+    top: 400px;
+    font-size: 60px;
+    font-family: 'Supermercado One', cursive;
+    text-shadow: 7px 7px black;
+}
+
+#countDown:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+}
+
+#startButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+#startOverlay{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.9);
+}

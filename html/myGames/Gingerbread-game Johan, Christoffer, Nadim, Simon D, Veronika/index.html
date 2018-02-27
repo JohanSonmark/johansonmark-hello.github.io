@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="MainMenu.css" type="text/css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<main>
+    <img id="banner" src="images/snowbanner.png" alt="">
+
+    <div class="buttons">
+        <ul>
+            <li><a href="lvl1.html" class="btn">Play now!</a></li>
+
+            <li class="btn" id="myBtn">How to play?</li>
+
+            <li><a href="#" class="btn">Level</a></li>
+
+            <li class="btn">High score list</li>
+
+        </ul>
+        <br>
+        <br>
+        <p>Music made by: <br><a href="https://www.silvermansound.com/">Silvermansound</a></p>
+
+        <div id="myModal" class="modal">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>How to play the game!</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="images/TryckStart.png" style="width:100%; height: 500px;">
+                            <div class="text">We start by pressing the start button with the cursor.</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 3</div>
+                            <img src="images/VisaSpel.png" style="width:100%; height: 500px;">
+                            <div class="text">You are a gingerbread man who will go home through the dangerous forest. Walk through without touching the snow. If you touch the snow you will tear apart and lose the game.
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="images/LyckaTill.png" style="width:100%; height: 500px;">
+                            <div class="text">Help the gingerbread man to come home safely without losing a crunch to his family.</div>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    </div>
+                    <br>
+
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</main>
+
+<script src="MainMenu.js"></script>
+</body>
+</html>
